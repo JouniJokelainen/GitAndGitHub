@@ -1,5 +1,5 @@
 ![Git ja GitHub](/gitjagithub.jpg)
-![task1.1](/images/1.1.png)
+
 
 # **Git ja GitHub versiohallinta**  
 
