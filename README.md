@@ -63,7 +63,7 @@ Työhakemiston synkronoiminen *GitHub:n*:
 - *GitHub* repositorion ja paikallisen työkansion tilenteen erojen päivittäminen: ```git fetch```  
 - Tietojen lataaminen *GitHub* repositoriosta paikalliseen työkansioon: ``` git pull ```  
 
-**GitHub* forkit:**
+**GitHub* fork:**
 Ns. *Fork* on *GitHub* repositorio joka syntynyt *fork* toiminnon takia kopiona jonkun toisen *GitHub* repositorista. *Fork* sisältää kaikki samat tiedot kuin alkuperäinen repositorio. *Fork*:n omistaa kopion luonut henkilö joten tietojen lisääminen *Fork* repositorioon on mahdollista.
 
 Git *fork*:n liittyviä Git komentoja
