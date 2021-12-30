@@ -1,7 +1,9 @@
 # Markdown tehtävä
 
-Luo johonkin omaan *GitHub* repositorioosi (tarvittaessa luo uusi repositorio) *readme.md*  tiedosto jossa kerrot mielestäsi tärkeimmät asiat Git versiohallinasta,
+Luo uusi *GitHub* repositorio nimeltä *Markdown* ja siihen *readme.md* niminen tiedosto jossa kerrot mielestäsi tärkeimmät asiat Git versiohallinasta,
 sen peruskomennoista sekä paikallisen Git työhakemiston kytkemisestä *GitHub*:n  
+
+Käytä *readme.md* tiedoston muotoilussa *Markdown* muotoiluja.
 
 **Käytä tiedoston muotoilussa seuraavia *Markdown* muotoiluja**
 
