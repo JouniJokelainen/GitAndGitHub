@@ -16,7 +16,7 @@ Käytä *readme.md* tiedoston muotoilussa *Markdown* muotoiluja.
 - Vaakasuoraa viivaa erottamaan dokumentin eri osia
 - Tekstikappaleita
 - Lohkolainausta (*blockquote*)
-- Luottelo/luettelomerkkejä  
+- Luetteloa/luettelomerkkejä  
 
 *Markdown* kuvauskielestä voit lukea [*Markdown Guiden:n*](https://www.markdownguide.org/getting-started/) sivuilta.
 
