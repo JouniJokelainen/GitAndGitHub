@@ -1,3 +1,5 @@
+![assignement](/assignement.jpg)
+
 # Markdown tehtävä
 
 Luo uusi *GitHub* repositorio nimeltä *Markdown* ja siihen *readme.md* niminen tiedosto jossa kerrot mielestäsi tärkeimmät asiat Git versiohallinnasta,
