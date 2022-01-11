@@ -36,7 +36,7 @@ Git järjestelmänä koostuu kolmesta osasta
 
 ![Git prosessi](https://uidaholib.github.io/get-git/images/workflow.png)
 
-**Git työkentely:**
+**Git työskentely:**
 
 Git tietojen määrittäminen:
 - Git versiohallinnan ottaminen käyttöön työkansiossa: ```git init```   
