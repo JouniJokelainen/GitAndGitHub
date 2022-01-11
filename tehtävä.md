@@ -1,4 +1,4 @@
-![assignement](/assignement.jpg)
+<img src="assignement.jpg" width="480" height="320">
 
 # Markdown tehtävä
 
