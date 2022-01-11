@@ -44,16 +44,13 @@ Lisätään tiedosto d.txt ja siihen sisältöä
 
 14.  ```git log```
 
-Lisätään tietoa d.txt tiedostoon
+Lisätään tietoa d.txt tiedostoon ja tallennetaan muutokset (ei commitoida)
 
 22.  ```git  checkout -- d.txt``` = palautetaan d.txt aiempaan versioon (edelliseen kommittiin)
-	HUOM: git revert *commit hash* = peruu hashissä tehdyt muutokset tiedostoihin
-	
-23. ```git branch``` = tarkastetaan puu
-
-24. ```git branch uusibranch``` = luodaan uus branch
-
-25. ```git chekcout uusibranch``` = siirrytään uuteen branchiin
+     HUOM: git revert *commit hash* = peruu hashissä/commitissa tehdyt muutokset tiedostoihin
+23.  ```git branch``` = tarkastetaan puu
+24.  ```git branch uusibranch``` = luodaan uus branch TAI ``git checkout -b uusibranch`` (luo ja siirtyy branchiin samointein)
+25.  ```git checkout uusibranch``` = siirrytään uuteen branchiin
 
 Luodaan uusi tiedosto e.txt ja siihen sisältöä
 
@@ -73,13 +70,13 @@ Tarkastetaan että e.txt on ilmestynyt työkansioon
 
 **Tallennettujen *commitoimattomien* tietojen peruminen**: 
 
-Lisätään työkansioon tiedosto x.txt vaikkapa VScodella ja sisällöksi X
+Lisätään työkansioon tiedosto x.txt vaikkapa VScodella ja sisällöksi X ja tallennetaan
 
 35. ```git add .```
 
 36.  ```git commit -m "Lisätty tiedosto X.txt"```
 
-Lisätään tiedostoon X.txt väärää sisältöä ja tallennetaan tiedosto | HUOM:  Ei committia tässä välissä
+Lisätään tiedostoon X.txt väärää sisältöä ja tallennetaan tiedosto | HUOM:  Ei committia eikä add tässä välissä
 
 37. Lisätään tiedostoon X.txt uutta sisältöä esim. ZZZ ja tallennetaan.
 
@@ -108,11 +105,44 @@ HUOM jos poistaminen olisi ehditty jo commitoida
 
 #### Työhakemiston synkronoiminen GitHubiin
 
+1. Vaihdetaan paikallisen *master* haaran nimi *main* nimiseksi
+   ``git branch -m main``
 1. luodaan repositorio GitHubiin ja otetaan repositorion URL osoite leikepöydälle
 2.  ```git remote add origin https://github.com/AzureandGit/githarjoitus.git``` = kytketään paikallinen työkansio Github repositorioon
 3. Tarkastetaan etärepositorio =  ```git remote -v```
-4.  Pusketaan paikallinen työkansio Githubiin =  ``` git push -u origin mastergit``` 
-4.1  ```git remote rm origin``` = poistaa remoten
+5. Pusketaan paikallinen työkansio Githubiin =  ``` git push -u origin main``` 
 5. Listätään Githubin kautta tiedosto = GitHubissa ollaan yksi commit edellä
 6. Haetaan githubin tilanne = ```git fetch```
 7. Synkronoidaan githubin tilanne paikalliseen työkansioon = ``` git pull ```
+7. Poisteaan remote ```git remote rm origin``` 
+
+#### Upstream
+
+Jos halutaan ladata sisältöä vieraasta *remotesta* oman työhakemistoon
+
+1. Forkataan vieras julkinen repositorio omaan GitHubiin
+
+2. Kloonataan oma forkki paikalliseksi työkansioksi
+
+   ``git clone https://linkki_omaan_forkkiin.git``
+
+3. Lisätään paikallisen työkansioon upstream alkuperäiseen vieras repoon
+   ``git remote add upstream https://linkki_vieraaseen_repoon.git``
+
+4. ``git remote -v``
+
+5. Alkuperäisessä etä_repossa on muutoksia ja ne pullataan paikalliseen työhakemistoon
+
+   ``git merge upstream/main``
+
+6. Lehdään muutoksia paikalliseen hakemistoon
+
+7. Lisätään ja commitoidaan  muutokset
+
+8. Työnnetään muutokset omaan forkkiin
+   ``git push`` tai ``git push origin``
+
+9. Luodaan *Pull request*
+
+
+
