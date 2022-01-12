@@ -140,7 +140,7 @@ Jos halutaan ladata sisältöä vieraasta *remotesta* oman työhakemistoon
 4. ``git remote -v``
 
 5. Alkuperäisessä etä_repossa on muutoksia ja ne pullataan paikalliseen työhakemistoon
-
+   `` git fetch upstream``
    ``git merge upstream/main``
 
 6. Tehdään muutoksia paikalliseen hakemistoon
