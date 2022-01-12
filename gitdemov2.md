@@ -52,7 +52,8 @@ Lisätään tietoa d.txt tiedostoon ja tallennetaan muutokset (ei commitoida)
 24.  ```git branch uusibranch``` = luodaan uus branch TAI ``git checkout -b uusibranch`` (luo ja siirtyy branchiin samointein)
 25.  ```git checkout uusibranch``` = siirrytään uuteen branchiin
 
-##Haaran ja Remoten uudelleen nimeäminen    
+**Haaran ja Remoten uudelleen nimeäminen**   
+
 Jos *Master*  halutaan uudelleen nimetä Main nimiseksi  
 ``git branch -M main``  
 
@@ -142,7 +143,7 @@ Jos halutaan ladata sisältöä vieraasta *remotesta* oman työhakemistoon
 
    ``git merge upstream/main``
 
-6. Lehdään muutoksia paikalliseen hakemistoon
+6. Tehdään muutoksia paikalliseen hakemistoon
 
 7. Lisätään ja commitoidaan  muutokset
 
