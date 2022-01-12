@@ -52,6 +52,13 @@ Lisätään tietoa d.txt tiedostoon ja tallennetaan muutokset (ei commitoida)
 24.  ```git branch uusibranch``` = luodaan uus branch TAI ``git checkout -b uusibranch`` (luo ja siirtyy branchiin samointein)
 25.  ```git checkout uusibranch``` = siirrytään uuteen branchiin
 
+*Haaran ja Remoten uudelleen nimeäminen*
+Jos *Master*  halutaan uudelleen nimetä Main nimiseksi
+``git branch -M main``
+
+Jos remote *Origin* halutaan uudelleen nimetä Github nimiseksi
+``git remote rename origin github``
+
 Luodaan uusi tiedosto e.txt ja siihen sisältöä
 
 26.  ```git add e.txt``` = lisätään seuraavaan committiin
@@ -74,7 +81,7 @@ Lisätään työkansioon tiedosto x.txt vaikkapa VScodella ja sisällöksi X ja 
 
 35. ```git add .```
 
-36.  ```git commit -m "Lisätty tiedosto X.txt"```
+36.  ```git commit -m "Lisätty tiedosto X.txt"``` (jotta saadaan talteen tilanne johon peruminen tapahtuu)
 
 Lisätään tiedostoon X.txt väärää sisältöä ja tallennetaan tiedosto | HUOM:  Ei committia eikä add tässä välissä
 
