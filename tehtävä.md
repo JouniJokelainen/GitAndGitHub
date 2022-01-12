@@ -1,6 +1,6 @@
 <img src="assignement.jpg" width="480" height="320">
 
-# Markdown tehtävä
+# Git, Gihub ja Markdown tehtävä
 
 Luo uusi *GitHub* repositorio nimeltä *Markdown* ja siihen *readme.md* niminen tiedosto jossa kerrot mielestäsi tärkeimmät asiat Git versiohallinnasta,
 sen peruskomennoista sekä paikallisen Git työhakemiston kytkemisestä *GitHub*:n  
