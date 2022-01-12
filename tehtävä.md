@@ -15,7 +15,7 @@ Selvitä itsellesi (ja luo ohjeet) ainakin seuraavista asioista:
 
 Git:ä ja Github:a löydät ohjeita esim. [täältä](https://evanwill.github.io/get-git-b/) ja [Git Book sivustolta](https://git-scm.com/book/en/v2)
 
-Käytä *readme.md* tiedoston muotoilussa *Markdown* muotoiluja.
+Käytä *readme.md* tiedoston muotoilussa [*Markdown* muotoiluja](https://about.gitlab.com/handbook/markdown-guide/).
 
 **Käytä tiedoston muotoilussa seuraavia *Markdown* muotoiluja**
 
