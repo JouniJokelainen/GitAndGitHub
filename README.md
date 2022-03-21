@@ -68,7 +68,7 @@ Ns. *Fork* on *GitHub* repositorio joka syntynyt *fork* toiminnon takia kopiona 
 
 Git *fork*:n liittyviä Git komentoja
 - *Upstream remoten* lisääminen paikalliseen Git työhakemistoon:   
-```git remote add upstream git://github.com/GitHubTunnus>/GitHubRepositorio.git>```     
+```git remote add upstream <git://github.com/GitHubTunnus>/GitHubRepositorio.git>```     
 - *Upstream remoten* tietojen synkronoiminen Giot työhakemistoon: ```git fetch upstream```   
 
 **Haarat eli *branch*:t**:
