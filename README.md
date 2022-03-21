@@ -40,7 +40,7 @@ Git järjestelmänä koostuu kolmesta osasta
 
 Git tietojen määrittäminen:
 - Git versiohallinnan ottaminen käyttöön työkansiossa: ```git init```   
-- Git käyttäjänimen määrittäminen: ```git config user.name```   
+- Git käyttäjänimen määrittäminen: ```git config user.name "etunimi sukunimi"```   
 - Sähköpostiosoitteen määrittäminen: ``` git config --global user.email "erkki.esimerkki@example.com" ```  
 - Git tietojen näyttäminen: ```git config --list --global```    
 
