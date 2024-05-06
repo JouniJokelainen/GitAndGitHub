@@ -1,4 +1,7 @@
+<!---
 ![Git ja GitHub](/gitjagithub.jpg)
+--->
+<img src="./gitjagithub.jpg" width="300">
 
 
 ------------------
