@@ -6,7 +6,7 @@
 
 ------------------
 
-### Mitä versiohallinnalla tarkoitetaan?
+### Mitä versiohallinnalla oikein tarkoitetaan?
 Versionhallinnalla tarkoittaa menetelmää, joka säilöö tietoa ja siihen tehtyjä muutoksia.
 
 Sen käyttöön on pääsääntöisesti kaksi syytä: 
